@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>محمد الطليحي - مطور تطبيقات محترف</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="menu-overlay"></div>
+    
+    <!-- القسم العلوي -->
+    <header class="top-header">
+        <nav class="mobile-nav">
+            <div class="nav-content container">
+                <div class="logo">
+                    <img src="assets/logo.png" alt="الشعار">
+                </div>
+                
+                <button class="menu-toggle" aria-label="القائمة">
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </button>
+
+                <div class="mobile-menu">
+                    <div class="menu-header">
+                        <span>القائمة</span>
+                        <button class="close-menu" aria-label="إغلاق">×</button>
+                    </div>
+                    <ul class="menu-items">
+                        <li><a href="#home" class="menu-link active">الرئيسية</a></li>
+                        <li><a href="#hero-image" class="menu-link">من أنا</a></li>
+                        <li><a href="#services" class="menu-link">خدماتي</a></li>
+                        <li><a href="apps.html" class="menu-link">متجر التطبيقات</a></li>
+                        <li>
+                            <a href="https://wa.me/201553634656" class="menu-link contact-link" target="_blank">
+                                <i class="fab fa-whatsapp"></i>
+                                تواصل معي
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- القسم الرئيسي -->
+    <main>
+        <section id="home" class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <div class="greeting">👋 مرحباً بك في موقعي</div>
+                        <h1 class="main-title">أنا <span class="highlight">محمد الطليحي</span></h1>
+                        <h2 class="sub-title">مطور تطبيقات ومواقع</h2>
+                        <p class="hero-description">
+                            أقدم حلولاً برمجية متكاملة وتصاميم مواقع عصرية تناسب احتياجات عملائي
+                            مع أكثر من 5 سنوات خبرة في مجال تطوير المواقع والتطبيقات
+                        </p>
+                        <div class="tech-stack">
+                            <span class="tech-item"><i class="fab fa-react"></i></span>
+                            <span class="tech-item"><i class="fab fa-node-js"></i></span>
+                            <span class="tech-item"><i class="fab fa-python"></i></span>
+                            <span class="tech-item"><i class="fab fa-android"></i></span>
+                            <span class="tech-item flutter-icon">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M14.314 0L2.3 12 6 15.7 21.684.013h-7.357zm.014 11.072L7.857 17.53l6.47 6.47H21.7l-6.46-6.468 6.46-6.46h-7.37z"/>
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="action-buttons">
+                            <a href="https://wa.me/201553634656" class="action-button contact-button" target="_blank">
+                                <i class="fab fa-whatsapp"></i>
+                                تواصل معي
+                            </a>
+                            <a href="apps.html" class="action-button portfolio-button">
+                                <i class="fas fa-store"></i>
+                                متجر التطبيقات
+                            </a>
+                        </div>
+                    </div>
+                    <div class="profile-section">
+                        <div class="logo-container">
+                            <img src="assets/animated-logo.gif" alt="شعار متحرك" class="animated-logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="arrow-scroll-indicator">
+                <div class="scroll-down"></div>
+            </div>
+        </section>
+
+        <section id="services" class="services-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge">خدماتي</span>
+                    <h2>ماذا أقدم لك؟</h2>
+                </div>
+                <div class="services-grid">
+                    <div class="feature-card">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>تطبيقات الموبايل</h3>
+                        <p>تطوير تطبيقات احترافية للأندرويد و iOS باستخدام أحدث التقنيات</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>تطوير المواقع</h3>
+                        <p>تصميم وبرمجة مواقع عصرية وسريعة تناسب جميع الأجهزة</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-server"></i>
+                        <h3>خدمات API</h3>
+                        <p>تطوير واجهات برمجية متكاملة وآمنة لربط تطبيقاتك</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="store-features">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge">متجر التطبيقات</span>
+                    <h2>مميزات متجر التطبيقات</h2>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>حماية متكاملة</h3>
+                        <p>جميع التطبيقات آمنة ومحمية ضد القرصنة</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-sync"></i>
+                        <h3>تحديثات مستمرة</h3>
+                        <p>تحديثات دورية لجميع التطبيقات لضمان أفضل أداء</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-headset"></i>
+                        <h3>دعم فني</h3>
+                        <p>دعم فني متواصل لحل جميع المشاكل التقنية</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        // Menu Toggle
+        const menuToggle = document.querySelector('.menu-toggle');
+        const mobileMenu = document.querySelector('.mobile-menu');
+        const closeMenu = document.querySelector('.close-menu');
+        const menuOverlay = document.querySelector('.menu-overlay');
+        const menuLinks = document.querySelectorAll('.menu-link');
+
+        menuToggle.addEventListener('click', () => {
+            mobileMenu.classList.add('active');
+            menuOverlay.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        });
+
+        function closeMenuHandler() {
+            mobileMenu.classList.remove('active');
+            menuOverlay.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        closeMenu.addEventListener('click', closeMenuHandler);
+        menuOverlay.addEventListener('click', closeMenuHandler);
+
+        menuLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                if (mobileMenu.classList.contains('active')) {
+                    closeMenuHandler();
+                }
+            });
+        });
+    </script>
+</body>
+</html>
